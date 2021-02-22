@@ -1,0 +1,91 @@
+V "GNAT Lib v6"
+A -mtune=generic
+A -march=i586
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK_05
+
+U lines%b		lines.adb		56cfdfb0 NE OO PK KU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U lines%s		lines.ads		b9ab6156 EE NE OO PK KU
+
+D ada.ads		20191120180056 3ffc8e18 ada%s
+D a-except.ads		20191120180056 291912d5 ada.exceptions%s
+D a-flteio.ads		20191120180056 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20191120180056 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20191120180056 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20191120180056 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20191120180056 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20191120180056 119b8fb3 ada.streams%s
+D a-tags.ads		20191120180056 01f5e3ef ada.tags%s
+D a-textio.ads		20191120180056 386df5d4 ada.text_io%s
+D a-tiflio.ads		20191120180056 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20191120180056 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20191120180056 4be8ce1b interfaces%s
+D i-cstrea.ads		20191120180056 e53d8b8e interfaces.c_streams%s
+D lines.ads		20191202201744 b9ab6156 lines%s
+D lines.adb		20191203075330 356b318e lines%b
+D system.ads		20191120180056 2da59038 system%s
+D s-crtl.ads		20191120180056 0ebbdb71 system.crtl%s
+D s-exctab.ads		20191120180056 54135002 system.exception_table%s
+D s-ficobl.ads		20191120180056 078245e4 system.file_control_block%s
+D s-parame.ads		20191120180056 7e2a0d7f system.parameters%s
+D s-soflin.ads		20191120180056 14e1eb6c system.soft_links%s
+D s-stache.ads		20191120180056 a37c21ec system.stack_checking%s
+D s-stalib.ads		20191120180056 09bd3940 system.standard_library%s
+D s-stoele.ads		20191120180056 2dc34a04 system.storage_elements%s
+D s-traent.ads		20191120180056 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20191120180056 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20191120180056 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 16|1r6 2r6 3r6 4r5 36r1 38r1 40r1 47r1 48r1 49r1 50r1 51r1
+X 3 a-flteio.ads
+20K13*Float_Text_IO[11|46] 16|1w10 48r5 50r5
+X 5 a-numeri.ads
+16K13*Numerics 32e17 16|3r10 4r9
+X 6 a-nuelfu.ads
+18K22*Elementary_Functions[7|39] 16|3w19 4r18
+X 7 a-ngelfu.ads
+42V13*Sqrt{float} 16|12s8[6|18]
+X 10 a-textio.ads
+49K13*Text_IO 471e16 16|2w10 36r5 38r5 40r5 47r5 49r5 51r5
+73I12*Field{integer}
+242U14*Put 16|36s13 38s13 40s13 47s13 49s13 51s13
+242a19 Item{string} 16|36r17 38r17 40r17 47r17 49r17 51r17
+X 11 a-tiflio.ads
+68U14*Put 16|48s19[3|20] 50s19[3|20]
+69f7 Item{float} 16|48r23[3|20] 50r23[3|20]
+70i7 Fore{10|73I12} 16|48r36[3|20] 50r36[3|20]
+71i7 Aft{10|73I12} 16|48r45[3|20] 50r45[3|20]
+72i7 Exp{10|73I12} 16|48r53[3|20] 50r53[3|20]
+X 15 lines.ads
+1K9*Lines 11E8 18l5 18e10 16|6b14 55l5 55t10
+2R6*Point 9r27 11c8 13e13 16r14 16|44r26
+3R6*Line 5r27 6r24 7r52 8r25 15c8 17e13 16|10r27 16r24 23r47 33r25
+5V10*Distance{float} 5>19 16|10b10 14l5 14t13
+5r19 L1{3R6} 16|10b19 12r14 12r24 12r41 12r51
+6V10*Slope{float} 6>16 16|16b10 21l5 21t10
+6r16 L1{3R6} 16|16b16 19r10 19r20 19r31 19r41
+7U11*SetLine 7>20 7>24 7>28 7>32 7<44 16|23b11 31l5 31t12
+7f20 X1{float} 16|23b19 26r11
+7f24 Y1{float} 16|23b22 27r11
+7f28 X2{float} 16|23b25 28r11
+7f32 Y2{float} 16|23b28 29r11
+7r44 L{3R6} 16|23b40 26m1 27m1 28m1 29m1
+8U11*PrintLine 8>21 16|33b11 42l5 42t14
+8r21 L{3R6} 16|33b21 37r12 39r12
+9U11*PrintPoint 9>23 16|37s1 39s1 44b11 53l5 53t15
+9r23 P{2R6} 16|44b22 48r31 50r31
+12f5*X{float} 16|12r20 12r30 19r37 19r47 26m6 28m6 48r33
+12f8*Y{float} 16|12r47 12r57 19r16 19r26 27m6 29m6 50r33
+16r5*P1{2R6} 16|12r27 12r54 19r23 19r44 26m3 27m3 37r14
+16r9*P2{2R6} 16|12r17 12r44 19r13 19r34 28m3 29m3 39r14
+
