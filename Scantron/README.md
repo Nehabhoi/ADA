@@ -12,16 +12,16 @@ graded and the class average.
 The program should have  
 •	a procedure (called with different parameters) to read the answer key 
 	and the student responses. The arrays are the same size and data type so 
-	only one procedure is needed to read both.
+	only one procedure is needed to read both. </br>
 •	a function that take the answer key and student response as parameters 
 	and then computes the score for that student. The score is returned as 	
-	integer by the function.
+	integer by the function.</br>
 •	an input file. The program asks the user for the name of the file. The 	
 	file name is entered at the keyboard. All subsequent data is read from 
-	the file.
+	the file.</br>
 •	a score frequency count. Every time a score is computed increment a 
 	counter for that value. Any score from 0 to 100 is possible (integer 
-	only), so the program needs 101 counters!
+	only), so the program needs 101 counters!</br>
 
 Behavior not assigned to functions may be done in main.
 
