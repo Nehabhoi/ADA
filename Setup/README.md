@@ -9,8 +9,8 @@
  2. To Compile => gcc -c Distance_To_Origin.adb
  3. To Link => gnatbind Distance_To_Origin
  4. Create the executable => gnatmake Distance_To_Origin
- 5. To Run => Distance_To_Origin : output.PNG
- 6. Distance_Between_Points : output1.PNG
+ 5. To Run => Distance_To_Origin (for result refer "output.PNG")
+ 6. Distance_Between_Points (for results refer "output1.PNG")
 
  ### Description
  This short program introduces several topics
